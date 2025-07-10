@@ -1,0 +1,243 @@
+# ====================
+# Python project related
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ====================
+# Virtual environments
+# ====================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+miniconda3/
+anaconda3/
+
+# ====================
+# ChromaDB database files
+# ====================
+chroma_db/
+*.sqlite3
+*.db
+
+# ====================
+# Uploaded documents and processed files
+# ====================
+uploaded_docs/
+example_docs/
+*.pdf
+*.doc
+*.docx
+
+# Text files (but keep important config files)
+*.txt
+!requirements.txt
+!LICENSE.txt
+
+# Markdown files (but keep important documentation)
+*.md
+!README.md
+!INSTALL.md
+!USAGE.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+
+# MinerU output files
+mineru_output/
+**/mineru_output/
+
+# ====================
+# Log files
+# ====================
+*.log
+logs/
+log/
+*.out
+
+# ====================
+# Temporary files and cache
+# ====================
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ====================
+# Jupyter Notebook
+# ====================
+.ipynb_checkpoints
+*.ipynb
+
+# ====================
+# IDE and editor configuration
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ====================
+# Operating system files
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ====================
+# Environment configuration files
+# ====================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.ini
+secrets.json
+
+# ====================
+# GPU and model related
+# ====================
+# PyTorch model cache
+torch_cache/
+.torch/
+# HuggingFace cache
+.cache/huggingface/
+# Transformers cache
+transformers_cache/
+
+# ====================
+# Network and download files
+# ====================
+*.tar.gz
+*.zip
+*.rar
+*.7z
+downloads/
+temp/
+tmp/
+
+# ====================
+# Backup files
+# ====================
+*.bak
+*.backup
+*.old
+*.orig
+
+# ====================
+# Compiled and build artifacts
+# ====================
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# ====================
+# Project specific
+# ====================
+# Startup logs
+rag_startup*.log
+rag_mineru.log
+rag_with_mineru.log
+
+# Test output
+test_output/
+demo_output/
+
+# Local config overrides
+local_config.py
+local_settings.py
+
+# GPU specific temporary files
+rocm_tmp/
+cuda_tmp/
+gpu_cache/
+
+# ====================
+# Documentation and static assets (keep key documentation)
+# ====================
+# Keep only key documentation
+!README.md
+!INSTALL.md
+!USAGE.md
+!CHANGELOG.md
+!LICENSE*
+
+# ====================
+# Dependency management
+# ====================
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ====================
+# Container related
+# ====================
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore
+
+# ====================
+# Other tool configurations
+# ====================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/ 
