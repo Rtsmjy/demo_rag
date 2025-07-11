@@ -14,10 +14,10 @@ fi
 
 # Activate conda environment
 echo "🔄 Activating conda environment: rag_system"
-source ~/miniconda3/bin/activate rag_system
+source ~/miniconda3/bin/activate ryzen_ai_ta
 
 if [ $? -ne 0 ]; then
-    echo "❌ Error: Unable to activate conda environment rag_system"
+    echo "❌ Error: Unable to activate conda environment ryzen_ai_ta"
     exit 1
 fi
 
