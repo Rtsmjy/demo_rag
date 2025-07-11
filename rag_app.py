@@ -359,6 +359,7 @@ Requirements:
 2. If information is insufficient, clearly state what information is missing
 3. Stay objective and do not fabricate information
 4. Appropriately cite original text from the context
+5. You may need to adjust the format of output to make it more readable.
 
 Context Information:
 {context}

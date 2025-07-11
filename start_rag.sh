@@ -25,6 +25,7 @@ fi
 echo "🔧 Configuring ROCm environment variables"
 export ROCM_PATH=/opt/rocm
 export HIP_VISIBLE_DEVICES=0
+export HSA_OVERRIDE_GFX_VERSION=11.0.0
 
 # Optimize ROCm memory management (cancel HSA Override)
 export HSA_XNACK=1
