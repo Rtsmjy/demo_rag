@@ -105,7 +105,7 @@ loguru>=0.7.0
 #    conda activate rag_system
 #
 # 2. Install PyTorch (ROCm version):
-#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.4.1
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.4
 #
 # 3. Install other dependencies:
 #    pip install -r requirements.txt
