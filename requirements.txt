@@ -3,9 +3,10 @@
 # ===========================================
 
 # Deep learning framework
-torch>=2.6.0
-torchvision>=0.17.0  
-torchaudio>=2.6.0
+# we install them first by 'pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.4'
+# torch>=2.6.0
+# torchvision>=0.17.0  
+# torchaudio>=2.6.0
 
 # Vector database
 chromadb>=1.0.15
@@ -18,6 +19,7 @@ pymupdf>=1.23.0
 
 # MinerU document parsing
 mineru>=2.1.0
+doclayout_yolo
 
 # Web interface
 gradio>=4.0.0
@@ -100,7 +102,7 @@ loguru>=0.7.0
 # ===========================================
 # Installation Instructions
 # ===========================================
-# 1. Create conda environment:
+# 1. Create conda environment(Optional):
 #    conda create -n rag_system python=3.12
 #    conda activate rag_system
 #
